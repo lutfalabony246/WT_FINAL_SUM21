@@ -4,7 +4,7 @@ if(!isset($_COOKIE["loggeduser"]))
 {header("Location: index.php");
 }
 ?> 
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
