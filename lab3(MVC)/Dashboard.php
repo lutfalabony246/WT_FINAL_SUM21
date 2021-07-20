@@ -7,7 +7,7 @@
 <body>
 <h2 style="text-align: center;">Dashboard</h2>
 <table style="text-align: center;">
-	<tr><td ><a href="Addstudent.php">Add Student</a></td>
+	<tr style="text-align: center;"><td ><a href="Addstudent.php">Add Student</a></td>
 		<td><a href="Allstudents.php">All Students</a></td>
 		<td><a href="">Add Department</a></td>
 		<td><a href="">All Departments</a></td>

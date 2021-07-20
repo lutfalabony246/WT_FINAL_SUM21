@@ -1,5 +1,5 @@
 <?php 
-include 'Controllers/AdminControllers.php';
+require_once 'Controllers/AdminControllers.php';
 ?>
 <!DOCTYPE html>
 <html>
