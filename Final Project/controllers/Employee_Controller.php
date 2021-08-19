@@ -106,7 +106,7 @@ elseif (isset($_POST["edit_student"])){
 	}
 	if(!$hasError)
 		{
-			$rs = updateStudents($name,$uname,$dob,$deptid,$_POST["id"]);
+			$rs = updateStudents($name,$dob,$img,$deptid,$_POST["id"]);
 			if($rs === true)
 			{
 				header("Location: All_Employee.php");

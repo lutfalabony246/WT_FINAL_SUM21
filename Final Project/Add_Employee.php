@@ -105,6 +105,7 @@ $dept=getAlldepartment();
 <br><br>
 <input type="submit" name="add_student" value="Add Employee">
  </form>
+ <a href="dashboard.php">Back</a>
  </body>
  </html>
 <script src="Js/employee.js"></script>

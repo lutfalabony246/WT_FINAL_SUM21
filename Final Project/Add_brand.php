@@ -1,7 +1,7 @@
 <?php
-if (isset($_COOKIE["category"])) {
+/*if (isset($_COOKIE["category"])) {
 	header("Location:login.php");
-}
+}*/
 require_once 'controllers/BranController.php';
 ?>
 <!DOCTYPE html>
@@ -54,7 +54,7 @@ require_once 'controllers/BranController.php';
 				<option>Not Available</option>
 			</select>
 			<p><input type="submit" name ="add_brand" value="Add"> </p>
-
+<a href="dashboard.php">Back</a>
 			
 		</body>
 	</html>

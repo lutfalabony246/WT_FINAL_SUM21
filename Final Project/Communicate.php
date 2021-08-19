@@ -10,5 +10,6 @@
 	
 </textarea>
 <a href="dashboard.php">Message</a>
+<a href="dashboard.php">Back</a>
 </body>
 </html>

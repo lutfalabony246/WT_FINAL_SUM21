@@ -1,7 +1,7 @@
 <?php
-if (isset($_COOKIE["category"])) {
+/*if (isset($_COOKIE["category"])) {
 	header("Location:login.php");
-}
+}*/
 require_once 'controllers/CategoryController.php';
 ?>
 <!DOCTYPE html>
@@ -51,7 +51,7 @@ require_once 'controllers/CategoryController.php';
 			<br>
 			<p><input type="submit" name ="add_category" value="Add"  > </p>
 			
-			
+			<a href="dashboard.php">Back</a>
 		</body>
 	</html>
 	<script src="js/Category.js"></script>

@@ -31,7 +31,7 @@ if(!isset($_SESSION["loggeduser"]))
 <style >
 	.img{
 		display: flex;
-		justify-content: left;
+		justify-content: center;
 	}
 </style>
 <body style="background: #f5f5f0; ">

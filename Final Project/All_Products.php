@@ -3,9 +3,9 @@ include 'controllers/ProductController.php';
 $products= getProducts();
 
 
-if (!isset($_COOKIE['products'])) {
+/*if (!isset($_COOKIE['products'])) {
 	header("Location:dashboard.php");
-}
+}*/
  ?>
 <!DOCTYPE html>
 <html>
@@ -37,7 +37,7 @@ if (!isset($_COOKIE['products'])) {
 			$i=1;
 			foreach ($products as $p) {
 				$id=$p["id"];
-				setcookie("searchproduct",$p,time()+60);
+				//setcookie("searchproduct",$p,time()+60);
 				echo "<tr>";
 					echo "<td>$i</td>";
 					echo "<td><img width='80px' height='100px' src='".$p["img"]."'></td>";
@@ -47,7 +47,7 @@ if (!isset($_COOKIE['products'])) {
 					echo "<td>.$p[qty].</td>";
 					echo "<td>.$p[description].</td>";
 					echo '<td><button><a href="Edit_Product.php ?id='.$id.'">Edit</a></button></td>';
-					echo '<td><button name="delete"><a name="delete" href="Delete_category.php ?id='.$id.'">Delete</a> </button></td>';
+					//echo '<td><button name="delete"><a name="delete" href="Delete_category.php ?id='.$id.'">Delete</a> </button></td>';
 					
 			       // echo '<td><a name="delete" href="Delete_category.php ?id='.$id.'">Delete</a></td>';
 				echo "</tr>";
@@ -57,6 +57,7 @@ if (!isset($_COOKIE['products'])) {
 			
 		</tbody>
 	</table>
+	<a href="dashboard.php"> Back</a> 
 </body>
 </html>
 <script src="js/products.js"></script>

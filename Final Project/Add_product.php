@@ -106,5 +106,6 @@ $cat=getAllcategories();
 <span id="err_img"> <?php echo $err_img;?> </span>
 <br><br>
 <input type="submit" name="add_product" value="Add Product">
+<a href="dashboard.php">Back</a>
 </body>
 </html>
