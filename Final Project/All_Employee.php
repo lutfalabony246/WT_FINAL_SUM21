@@ -40,7 +40,7 @@ $std=getallStudents();
 					echo "<td>$st[d_name]</td>";
 
 					echo '<td><a href="Edit_Employee.php ?id='.$id.'">Edit</a></td>';
-			       // echo '<td><a href="Delete_student.php">Delete</a></td>';
+			        echo '<td><a href="deleteEmployee.php ?id='.$id.'">Delete</a></td>';
 				echo "</tr>";
 
 				$i++;

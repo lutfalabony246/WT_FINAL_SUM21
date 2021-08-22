@@ -152,4 +152,9 @@ function checkEmpUsername($uname){
 		return false;
 		
 	}
+	function deleteemployee($id)
+	{
+		$query="delete from employee where id=$id";
+		execute($query);
+	}
 
